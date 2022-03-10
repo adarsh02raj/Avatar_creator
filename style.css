@@ -51,8 +51,8 @@ label, input{
     align-items: center;
 }
 button{
-    margin-top: 3%;
-    margin-left: 42%;
+    margin-top: 25px;
+    margin-left: 75px;
     height: 35px;
     width: 100px;
     color: white;
