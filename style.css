@@ -1,0 +1,40 @@
+body{
+    background-color: green;
+}
+.head{
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.container{
+    background-color: aquamarine;
+    height: 70vh;
+    width: 70vw;
+    border: 2px solid black;
+    margin-left: 15vw;    
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+label, input{
+    font-size: large;
+    margin: 0vw 0vw 1vw 26.5vw;
+}
+.imgdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    margin-top: 2vw;
+    margin-left: 32vw;
+    height: 8vh;
+    width: 8vw;
+    color: white;
+    background-color: blue;
+    border-radius: 15px;
+}
