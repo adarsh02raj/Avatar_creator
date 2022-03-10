@@ -20,10 +20,31 @@ body{
     justify-content: center;
     align-items: center; */
 }
+@media screen and (min-width: 400px) {
+    .container {
+        background-color: aquamarine;
+        height: 70vh;
+        width: 70%;
+        border: 2px solid black;
+        margin-left: 15vw;    
+    
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+        }
+  }
+  
 label, input{
     font-size: large;
-    margin: 0vw 0vw 1% 37.5%;
+    margin: 0vw 0vw 1% 10%;
 }
+@media screen and (min-width: 800px) {
+    label, input {
+        font-size: large;
+        margin: 0vw 0vw 1% 37.5%;
+    }
+  }
+  
 .imgdiv{
     display: flex;
     justify-content: center;
