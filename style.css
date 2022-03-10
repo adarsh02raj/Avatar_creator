@@ -3,7 +3,7 @@ body{
 }
 .head{
     font-family: 'Baloo Bhai 2', cursive;
-    font-size: 50px;
+    font-size: 150%;
     display: flex;
     justify-content: center;
     margin-top: 15px;
@@ -12,7 +12,7 @@ body{
 .container{
     background-color: aquamarine;
     height: 70vh;
-    width: 70vw;
+    width: 70%;
     border: 2px solid black;
     margin-left: 15vw;    
 
@@ -22,7 +22,7 @@ body{
 }
 label, input{
     font-size: large;
-    margin: 0vw 0vw 1vw 26.5vw;
+    margin: 0vw 0vw 1% 37.5%;
 }
 .imgdiv{
     display: flex;
@@ -30,11 +30,11 @@ label, input{
     align-items: center;
 }
 button{
-    margin-top: 2vw;
-    margin-left: 32vw;
-    height: 8vh;
-    width: 8vw;
+    margin-top: 3%;
+    margin-left: 42%;
+    height: 10%;
+    width: 15%;
     color: white;
     background-color: blue;
-    border-radius: 15px;
+    border-radius: 13%;
 }
