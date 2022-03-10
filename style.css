@@ -32,9 +32,20 @@ label, input{
 button{
     margin-top: 3%;
     margin-left: 42%;
-    height: 10%;
-    width: 15%;
+    height: 35px;
+    width: 100px;
     color: white;
     background-color: blue;
     border-radius: 13%;
 }
+@media screen and (min-width: 400px) {
+    button {
+    margin-top: 3%;
+    margin-left: 42%;
+    height: 10%;
+    width: 15%;
+    color: white;
+    background-color: blue;
+    border-radius: 13%;    
+    }
+  }
